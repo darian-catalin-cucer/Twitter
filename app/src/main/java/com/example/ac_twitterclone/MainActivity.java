@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnLogIn.setOnClickListener(this);
 
         if (ParseUser.getCurrentUser() != null) {
-            //ParseUser.getCurrentUser().logOut();
             transitionToSocialMediaActivity();
         }
 
